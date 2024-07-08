@@ -58,7 +58,7 @@ label{
     margin-bottom: 3%;
     border: solid rgb(84, 0, 0);
 }
-.submit{
+button{
  margin-left: 70%;
  background-color: rgb(48, 3, 3);
  border: solid rgb(7, 4, 4);
