@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-image: url(https://i.pinimg.com/564x/0c/7d/b6/0c7db62f5209cd2b7594b90855a278e1.jpg);
+}
+
+.bloco{
+    background-color: rgba(0, 0, 0, 0.678);
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   border: solid rgb(66, 9, 9);
+}
+h1{
+ text-align: center;
+ font-size: 300%;
+ font-family: cursive;
+ color: rgb(83, 16, 16);
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
+button{
+    border: solid rgb(141, 18, 18);
+width: 10%;
+background-image: url(https://i.pinimg.com/564x/1e/e1/02/1ee1027b4c375bf48c66ec0c752c53b1.jpg);
+color: azure;
+
+}

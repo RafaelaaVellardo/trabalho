@@ -3,12 +3,17 @@ function submit(){
     let Nome = document.getElementById('Nome').value
     let email = document.getElementById('email').value
     let senha = document.getElementById('senha').value
-    let termoCondi = document.querySelector("input[name = 'Concordar']:checked").value
+    let termoCondi = document.getElementById("Concordar")
    
 
-    alert('nome: ' +Nome+ ' email: ' + email + ' Senha: ' + senha + ' ' + termoCondi)
-
-    window.location.href="gay.html"
+    
+    if(termoCondi.checked){
+        alert('nome: ' +Nome+ ' email: ' + email + ' Senha: ' + senha + ' termos: ' + termoCondi.value)
+        window.location.href="gay.html"
+    }
+    else{
+        alert('Você precisa aceitar os termos.')
+    }
 }
 
 function nao(){
